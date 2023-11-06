@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1b52c0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #141414;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #61dafb;
+  padding: 10px;
+  text-align:center;
+
+}
+
+.header-tengah {
+  background-color: #61dafb;
+  text-align: center;
+  width: 100%;
+  position:relative;
+}
+
+.header-logo{
+  background-color: #61dafb;
+  text-align: center;
+  width: 100%;
+}
+
+.col-md-3 {
+  width: 25%;
+}
+
+.col-sm-6 {
+  width: 50%;
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.aboutus {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aboutus-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.aboutus-text {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.aboutus-more {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.aboutus-more:hover {
+  text-decoration: underline;
+}
+
